@@ -1,0 +1,11 @@
+name = "StateDepMOR"
+version = "0.1.0"
+defaultTargets = ["StateDepMOR"]
+
+[[lean_lib]]
+name = "StateDepMOR"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.33.1"
