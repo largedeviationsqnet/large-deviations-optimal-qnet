@@ -1,0 +1,43 @@
+import StateDepMOR.VerifiedStatements
+import StateDepMOR.PoissonRateProofs
+import StateDepMOR.FiniteQueueChain
+import StateDepMOR.FiniteQueueStationarity
+import StateDepMOR.FiniteQueueLongRun
+import StateDepMOR.InitialPerformance
+import StateDepMOR.ConcretePerformance
+import StateDepMOR.MinInvariantPerformance
+import StateDepMOR.FiniteQueueBalance
+import StateDepMOR.FiniteQueueTrajectories
+import StateDepMOR.TokenIID
+import StateDepMOR.EventEpochExecution
+import StateDepMOR.PoissonCountLDP
+import StateDepMOR.PoissonProcessExecution
+import StateDepMOR.FluidConsistencyProofs
+import StateDepMOR.HallFailureCuts
+import StateDepMOR.HallStrictImbalance
+import StateDepMOR.HallCriticalEquality
+import StateDepMOR.HallNecessary
+import StateDepMOR.AmpleFlexibility
+import StateDepMOR.FluidDriftProofs
+import StateDepMOR.FluidAllocationBounds
+import StateDepMOR.FluidSMWProofs
+import StateDepMOR.SMWSteepestDescentProofs
+import StateDepMOR.SMWNegativeDriftCore
+import StateDepMOR.SMWNegativeDriftProofs
+import StateDepMOR.FluidAttraction
+import StateDepMOR.FluidResting
+import StateDepMOR.GammaUpperBound
+import StateDepMOR.GammaLowerBound
+import StateDepMOR.GammaOptimizer
+import StateDepMOR.CriticalSubsetProof
+import StateDepMOR.MainAssembly
+import StateDepMOR.PaperPerformanceBridge
+import StateDepMOR.SourceCounterexamples
+import StateDepMOR.InvariantSelectionCounterexample
+
+/-!
+# State-dependent closed queueing networks
+
+Formalization entry point for `StateDep_MOR.tex` and its recursively included
+file `Appendices.tex`.
+-/
